@@ -3,10 +3,10 @@
 
 set.seed(1234)
 
-total_pop <- 12612 # total number of trails
+total_pop <- # total number of trails
 random_sample <- sort(sample.int(total_pop,(total_pop*.1), replace=FALSE))
 
-# population is a df with a column for each forest (as defined and labeled by alltrails) and a column for how many total trail pages exist for that forest
+# population is a df with a column for each forest (as defined and labeled by AllTrails) and a column for how many total trail pages exist for that forest
 population <- read.csv('forests_population.csv', header=TRUE)
 
 sampling_vector <- c()
